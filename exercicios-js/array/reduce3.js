@@ -18,5 +18,5 @@ Array.prototype.reduce3 = function(callback) {
 const soma = (total, valor) => total + valor;
 const numeros = [1, 2, 3, 4, 5, 6];
 //console.log(numeros.reduce(soma));
-console.log(numeros.reduce2(soma), 21);
+console.log(numeros.reduce2(soma, 21));
 //console.log(numeros.reduce3(soma));

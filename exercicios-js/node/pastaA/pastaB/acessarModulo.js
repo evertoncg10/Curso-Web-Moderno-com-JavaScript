@@ -16,10 +16,10 @@ console.log(saudacao.ola);
 const c = require('./pastaC');
 console.log(c.ola2);
 
-// const http = require('http');
-// http.createServer((request, response) => {
-//   response.write('Bom dia');
-//   response.end();
-// }).listen(8080);
+const http = require('http');
+http.createServer((request, response) => {
+  response.write('Bom dia');
+  response.end();
+}).listen(8080);
 
 
